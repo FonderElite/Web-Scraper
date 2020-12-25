@@ -56,10 +56,12 @@ elif choose == "3":
     print(r.content)
 elif choose == "4":
     print("Getting [HEAD request] from specified URL")
+    time.sleep(2)
     a = (requests.head(URL))
     print(a.headers)
 elif choose == "5":
     print("Getting [PUT request] from specified URL")
+    time.sleep(2)
     c = (requests.put(URL))
     print(c.text)
 
