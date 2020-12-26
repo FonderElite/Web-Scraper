@@ -3,9 +3,12 @@ import os
 import time
 import json
 import urllib
+import colorama
+from colorama import Fore, Back, Style
+colorama.init(autoreset=True)
 
 
-print(
+print(Fore.RED +
     '''
     
 ░██╗░░░░░░░██╗███████╗██████╗░  ░██████╗░█████╗░██████╗░░█████╗░██████╗░███████╗██████╗░
@@ -18,17 +21,17 @@ By: [Droid] || [FonderElite]
 Visit My Github https://github.com/FonderElite '''
 )
 time.sleep(2)
-URL = input("Input your url to scrape: ")
+URL = input(Fore.GREEN + "Input your url to scrape: ")
 choices = ['get','patch','post','head','put']
-choose = input("Choose What to do with the URL provided: 1=get, 2=patch, 3=post, 4=head, 5=put\n[+]")
+choose = input(Fore.GREEN + "Choose What to do with the URL provided: 1=get, 2=patch, 3=post, 4=head, 5=put\n[+]")
 
 if choose == "1":
-    print("Getting [GET requests] from specified URL...")
+    print(Fore.GREEN + "Getting [GET requests] from specified URL...")
     time.sleep(2)
     x = (requests.get(URL))
     print(x.text)
 elif choose == "2":
-    print("Getting [PATCH requests] from specified URL...")
+    print(Fore.GREEN"Getting [PATCH requests] from specified URL...")
     time.sleep(2)
     y = (requests.patch(URL))
     print(y.text)
@@ -51,22 +54,22 @@ elif choose == "3":
     # Adding empty header as parameters are being sent in payload
     headers = {}
     r = requests.post(URL, data=json.dumps(payload), headers=headers)
-    print("Getting [POST request] from specified URL...")
+    print(Fore.GREEN + "Getting [POST request] from specified URL...")
     time.sleep(2)
     print(r.content)
 elif choose == "4":
-    print("Getting [HEAD request] from specified URL")
+    print(Fore.GREEN + "Getting [HEAD request] from specified URL")
     time.sleep(2)
     a = (requests.head(URL))
     print(a.headers)
 elif choose == "5":
-    print("Getting [PUT request] from specified URL")
+    print(Fore.GREEN + "Getting [PUT request] from specified URL")
     time.sleep(2)
     c = (requests.put(URL))
     print(c.text)
 
 else:
-    print("Error!")
+    print(Fore.RED + "Error!")
     print('''
     
 ████████████████████████████████████████████████████████████████████████████████████████
