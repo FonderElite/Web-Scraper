@@ -1,5 +1,4 @@
 # Web-Scraper 
- <img src="https://pangogroup.com/wp-content/uploads/2018/04/HTTP_logo.svg-2.png" alt="drawing" style="width:100px; height:100px"/>
 ---
 ___
 # [Scrape The Web] using the module requests!!!
@@ -7,5 +6,6 @@ ___
 * Easy and fast
 * Scrapes using different HTTP methods effieciently
 * It's Fun!
+ ![Alt](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Icone_wikipedia_bureaucrat_bot.svg/1024px-Icone_wikipedia_bureaucrat_bot.svg.png)
 ---
 ___
