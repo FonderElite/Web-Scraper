@@ -14,9 +14,10 @@ print(Fore.RED +
 █▄─█▀▀▀█─▄█▄─▄▄─█▄─▄─▀███─▄▄▄▄█─▄▄▄─██▀▄─██▄─▄▄─█▄─▄▄─█▄─▄▄▀█
 ██─█─█─█─███─▄█▀██─▄─▀███▄▄▄▄─█─███▀██─▀─███─▄▄▄██─▄█▀██─▄─▄█
 ▀▀▄▄▄▀▄▄▄▀▀▄▄▄▄▄▀▄▄▄▄▀▀▀▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▄▀▀▀▄▄▄▄▄▀▄▄▀▄▄▀
-By: [Droid] || [FonderElite]
-Visit My Github https://github.com/FonderElite '''
-)
+''')
+print('''By: [Droid] || [FonderElite]
+Visit My Github https://github.com/FonderElite ''')
+
 time.sleep(2)
 URL = input(Fore.GREEN + "Input your url to scrape: ")
 choices = ['get','patch','post','head','put']
