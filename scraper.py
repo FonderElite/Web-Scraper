@@ -28,7 +28,7 @@ if choose == "1":
     x = (requests.get(URL))
     print(x.text)
 elif choose == "2":
-    print(Fore.GREEN"Getting [PATCH requests] from specified URL...")
+    print(Fore.GREEN + "Getting [PATCH requests] from specified URL...")
     time.sleep(2)
     y = (requests.patch(URL))
     print(y.text)
