@@ -20,8 +20,7 @@ Visit My Github https://github.com/FonderElite '''
 time.sleep(2)
 URL = input(Fore.GREEN + "Input your url to scrape: ")
 choices = ['get','patch','post','head','put']
-choose = input(Fore.GREEN + "Choose What to do with the URL provided: 1=get, 2=patch, 3=post, 4=head, 5=put\n[+]")
-
+choose = input(Fore.GREEN + "Choose:1=get, 2=patch, 3=post, 4=head, 5=put\n[+]")
 if choose == "1":
     print(Fore.GREEN + "Getting [GET requests] from specified URL...")
     time.sleep(2)
