@@ -59,7 +59,7 @@ elif choose == "4":
     a = (requests.head(URL))
     print(a.headers)
 elif choose == "5":
-    print(Fore.GREEN + "Getting [PUT request] from specified URL"...)
+    print(Fore.GREEN + "Getting [PUT request] from specified URL...")
     time.sleep(2)
     c = (requests.put(URL))
     print(c.text)
