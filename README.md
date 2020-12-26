@@ -1,4 +1,4 @@
-# Web-Scraper ![Alt](https://pangogroup.com/wp-content/uploads/2018/04/HTTP_logo.svg-2.png = 50x50)
+# Web-Scraper ![Alt](https://pangogroup.com/wp-content/uploads/2018/04/HTTP_logo.svg-2.png =50x50)
 ---
 ___
 # [Scrape The Web] using the module requests!!!
